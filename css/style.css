@@ -303,6 +303,7 @@ a:hover, a:focus, a:active {
   font-size: 30px;
   text-transform: uppercase;
   background: url(../img/logo.png) no-repeat left top;
+  background-size: 60px 80px;
   top: 40px;
   position: relative;
   width: 117px;

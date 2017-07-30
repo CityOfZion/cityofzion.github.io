@@ -6,7 +6,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 // the characters
-var chinese = "田由甲申甴电甶男甸甹町画甼甽甾甿畀畁畂畃畄畅畆畇畈畉畊畋界畍畎畏畐畑";
+var chinese = "小蚁股这是一种智能经济分布式网络的开发人员最好的社区";
 
 // converting the string into an array of single characters
 var characters = chinese.split("");
