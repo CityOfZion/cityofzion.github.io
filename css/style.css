@@ -58,11 +58,11 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #2fb58a;
+  color: #49af43;
 }
 
 a:hover, a:focus, a:active {
-  color: #2aa17b;
+  color: #52da5d;
   text-decoration: none;
 }
 
@@ -329,8 +329,8 @@ a:hover, a:focus, a:active {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .probootstrap-navbar .navbar-brand {
     position: relative;
-    width: 117px;
-    height: 40px;
+    width: 65px;
+    height: 41px;
     background: url(../img/logo@2x.png) no-repeat left 100%;
     background-size: cover;
   }
@@ -722,7 +722,7 @@ section[data-section="menu"] {
 @media screen and (max-width: 768px) {
   .probootstrap-section-bg {
     padding: 3em 0;
-    height: 300px;
+    height: 500px;
   }
 }
 
