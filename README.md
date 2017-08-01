@@ -1,5 +1,5 @@
-# cityofzion.github.io
-Our spartan simple homepage.
+# cityofzion gh page 
+Our spartan simple [homepage](http://cityofzion.io/).
 
 We just want a face for people to look at and find our projects.
 
@@ -16,7 +16,7 @@ Guidelines, it must be:
 To develop on it just clone (or download) the repository and do:
 
 ```bash
-sudo npm install -g gulp
-npm install
-gulp
+$ sudo npm install -g gulp
+$ npm install
+$ gulp
 ```
