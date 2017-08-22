@@ -1,24 +1,41 @@
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
-// making the canvas full screen
-c.height = window.innerHeight;
-c.width = window.innerWidth;
-
 // the characters
 var chinese = "小蚁股这是一种智能经济分布式网络的开发人员最好的社区";
 
 // converting the string into an array of single characters
 var characters = chinese.split("");
 var font_size = 12;
-var columns = c.width/font_size;    // number of columns for the rain
+
+// // number of columns for the rain
+var columns;
 
 // an array of drops - one per column
-var drops = [];
-// x below is the x coordinate
-// 1 = y-coordinate of the drop (same for every drop initially)
-for (var x = 0; x < columns; x++) 
-    drops[x] = 1;
+var drops;
+
+// calculate initial dimensions for columns and drops
+calculateDimensions();
+
+// if our window is resized, re-calculate the animation dimensions
+$(window).resize(calculateDimensions);
+
+function calculateDimensions() {
+    // making the canvas full screen
+    c.height = window.innerHeight;
+    c.width = window.innerWidth;
+
+    // number of columns for the rain
+    columns = c.width/font_size;
+
+    // an array of drops - one per column
+    drops = [];
+    
+    // x below is the x coordinate
+    // 1 = y-coordinate of the drop (same for every drop initially)
+    for (var x = 0; x < columns; x++) 
+        drops[x] = 1;
+}
 
 function getColor() {
     return "rgba(" + moment().format('HH') + ","
