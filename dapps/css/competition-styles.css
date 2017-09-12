@@ -1,0 +1,951 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	display: block;
+}
+
+
+/******************************************
+
+** Global Styles
+
+******************************************/
+
+h1, h2, h3, h4, h5, h6, .coz-intro {
+	font-family: 'Orbitron', sans-serif;
+	text-transform: uppercase;
+}
+
+h1, p {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFD84B;
+}
+
+.blue-text-link {
+	color: #4598FF;
+	text-decoration: underline;
+}
+
+.blue-text-link:hover {
+	color: #73B1FF;
+}
+
+#main-wrapper {
+	border: 20px solid #2B2B5E;
+	background: url('../images/Background-texture.jpg') 0 0 no-repeat;
+	background-size: cover;
+	padding: 0 40px;
+}
+
+/* All H2 yellow headlines */
+.yellow-headline {
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin-bottom: 5px;
+}
+
+
+/******************************************
+
+** Logo
+
+******************************************/
+
+.coz-logo {
+	margin: 54px auto 150px;
+	width: 260px;
+	height: 45px;
+}
+
+
+/******************************************
+
+** General introductory copy
+
+******************************************/
+
+#headline-wrapper {
+	max-width: 978px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#headline-wrapper .coz-intro {
+	font-size: 17px;
+	font-weight: 400;
+	color: #FFD84B;
+	margin-bottom: 15px;
+}
+
+#headline-wrapper .headline {
+	font-size: 58px;
+	font-weight: 700;
+	color: #FFFFFF;
+	letter-spacing: 14px;
+	margin-bottom: 20px;
+}
+
+#headline-wrapper .skewed-subline-losenge {
+	-webkit-transform: skew(-15deg);
+	transform: skew(-15deg);
+	background-image: linear-gradient(90deg,#FFA700,#FFD900);
+	padding: 9px 15px 11px;
+	width: 252px;
+	margin: 0 auto 37px;
+}
+
+#headline-wrapper .skewed-subline-losenge .skewed-losenge-copy {
+	font-size: 16px;
+	font-weight: 600;
+	color: #1B1B3C;
+	-webkit-transform: skew(15deg);
+	transform: skew(15deg);
+}
+
+#headline-wrapper .large-subline-copy {
+	font-size: 22px;
+	line-height: 35px;
+	color: #ffffff;
+	max-width: 643px;
+	margin: 0 auto 113px;
+}
+
+
+/******************************************
+
+** All competition information
+
+******************************************/
+
+#competition-information-wrapper {
+	max-width: 978px;
+	margin: 0 auto;
+	background: rgba(26, 26, 57, 0.6);
+}
+
+#competition-information-wrapper .stats-wrapper {
+	position: relative;
+	background: url('../images/stats-background-image.png') 0 0 no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	border-left: 2px solid #FFDA00;
+	border-right: 2px solid #FFDA00;
+}
+
+
+/****** Winner stats panel ******/
+
+#competition-information-wrapper .stats-wrapper .winner-stats {
+	position: absolute;
+	width: 33.33%;
+	left: 33.33%;
+	top: -29px;
+	border-top: 6px solid #6060A9;
+	text-align: center;
+}
+
+#competition-information-wrapper .total-prize .winner-tag {
+	margin: 0 auto 20px;
+}
+
+#competition-information-wrapper .total-prize-number {
+	font-size: 80px;
+	letter-spacing: 2px;
+	font-family: 'Teko', sans-serif;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-bottom: -10px;
+}
+
+#competition-information-wrapper .total-prize {
+	background-image: linear-gradient(-180deg,#4B4B89,#3E3E70);
+	background-image: url('../images/prize-noise.png'), linear-gradient(-180deg,#4B4B89,#3E3E70);
+	box-shadow: 0 4px 7px #191937;
+	background-size: 100% 100%;
+}
+
+#competition-information-wrapper .total-prize-text {
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#competition-information-wrapper .split-line {
+	height: 2px;
+	width: 100%;
+	background-image: linear-gradient(90deg,#FFA700,#FFD900);
+	margin: 36px auto 0;
+}
+
+#competition-information-wrapper .prize-breakdown {
+	background: url('../images/Smaller-ribbon.png') 0 0 no-repeat;
+	background-size: 100% 125px;
+	height: 82px;
+	padding: 25px 0;
+	
+}
+
+#competition-information-wrapper .winners {
+	font-size: 35px;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#competition-information-wrapper .receiving-amount {
+	font-size: 20px;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	color: #A5A5ED;
+}
+
+
+/****** Date stats panel ******/
+
+#competition-information-wrapper .stats-wrapper .date-stats {
+	overflow: hidden;
+	height: 262px;
+	border-top: 8px solid #FFDA00;
+}
+
+#competition-information-wrapper .registration-date {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+#competition-information-wrapper .submission-date {
+	width: 33.33%;
+	float: right;
+	text-align: center;
+}
+
+#competition-information-wrapper .registration-date .calendar,
+#competition-information-wrapper .submission-date .calendar {
+	margin: 58px auto 18px;
+}
+
+#competition-information-wrapper .date-title {
+	font-size: 20px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#competition-information-wrapper .date-information {
+	font-size: 14px;
+	color: #E6ECF2;
+}
+
+
+/****** Competition summary copy ******/
+
+#copy-wrapper {
+	position: relative;
+	padding: 160px 80px 80px;
+	border-left: 2px solid #FFDA00;
+	border-right: 2px solid #FFDA00;
+	border-bottom: 2px solid #FFDA00;
+}
+
+#copy-wrapper .body-copy {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #E6ECF2;
+	max-width: 772px;
+	margin-bottom: 70px;
+}
+
+#copy-wrapper .remove-bottom-margin {
+	margin-bottom: 10px;
+}
+
+#copy-wrapper .body-copy-italic {
+	font-style: italic;
+	color: #E6ECF2;
+}
+
+#copy-wrapper .body-copy-bold {
+	font-weight: 700;
+}
+
+#copy-wrapper .good-luck {
+	font-size: 20px;
+	color: #FFDA00;
+	margin-bottom: 8px;
+}
+
+#copy-wrapper .signoff {
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+
+
+/****** Registration form and elements ******/
+
+#registration-wrapper {
+	max-width: 978px;
+	background: rgba(40, 40, 82, 0.45);
+	border-bottom: 8px solid #FFDA00;
+	border-left: 2px solid #FFDA00;
+	border-right: 2px solid #FFDA00;
+}
+
+#registration-wrapper .form-container-padding {
+	padding: 80px 80px 40px;
+}
+
+#registration-wrapper .yellow-headline {
+	margin-bottom: 50px;
+}
+
+#registration-wrapper .form-label {
+	margin: 50px 0 15px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* Remove blue highlight on focus */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/****** Radio buttons ******/
+#registration-wrapper .radio-buttons input[type="radio"] {
+  	display: none;
+}
+.radio-buttons label {
+	width: 178px;
+	padding: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	border: 1px solid #3A3A72;
+	border-radius: 2px;
+	background: none;
+	margin-bottom: 10px;
+	margin-right: 19px;
+	display: inline-block;
+	cursor: pointer;
+	transition: 0.2s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -webkit-transition: 0.2s ease-in-out all;
+}
+
+.radio-buttons label:hover {
+	border: 1px solid #6262B5;
+}
+
+/* Unchecked */
+.radio-buttons label.individual {
+	background: url('../images/ICON_Individual_Unchecked.svg') 94% 51% no-repeat;
+}
+.radio-buttons label.team {
+	background: url('../images/ICON_Team_Unchecked.svg') 94% 51% no-repeat;
+}
+
+/* Checked */
+.radio-buttons input[type="radio"]:checked+label {
+	border: 1px solid #4598FF;
+}
+.radio-buttons input[type="radio"]:checked+label.individual {
+	background: url('../images/ICON_Individual_Checked.svg') 94% 51% no-repeat #303061;
+}
+.radio-buttons input[type="radio"]:checked+label.team {
+	background: url('../images/ICON_Team_Checked.svg') 94% 51% no-repeat #303061;
+}
+
+
+/****** Dropdown ******/
+.dropdown {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+    width: 211px;
+    padding: 7px 0 7px 11px;
+    outline: 0;
+    display: inline-block;
+    border: 1px solid #4598FF;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background: #303061;
+	background: url('../images/ICON_Downarrow.svg') 92% 51% no-repeat #303061;
+	position: relative;
+}
+
+.dropdown .option {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #303061;
+	font-size: 12px;
+	padding: 7px 0 7px 11px;
+	color: #ffffff;
+	border: 0;
+	outline: 0;
+}
+
+input::-moz-focus-inner { 
+  border: 0; 
+}
+	
+
+/****** Github/Slack handle elements ******/
+#registration-wrapper .team-members {
+	width: 100%;
+	overflow: hidden;
+}
+
+#registration-wrapper .added-team-member {
+	width: 211px;
+	margin-right: 22px;
+	float: left;
+}
+
+#registration-wrapper .added-team-member .team-member-label {
+	font-size: 12px;
+	color: #FFDA00;
+	margin-bottom: 12px;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#registration-wrapper .added-team-member .text-input-field {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 12px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: #61619E;
+	border: 1px solid #3A3A72;
+	border-radius: 2px;
+	background: none;
+	margin-bottom: 10px;
+	transition: 0.2s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -webkit-transition: 0.2s ease-in-out all;
+}
+
+#registration-wrapper .added-team-member .text-input-field:hover {
+	border: 1px solid #6262B5;
+}
+
+#registration-wrapper .added-team-member .text-input-field:focus {
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+
+/****** Register now box ******/ 
+#registration-wrapper .register-now {
+	width: 100%;
+	background: rgba(53, 53, 107, 0.45);
+	padding: 50px 0;
+}
+
+#registration-wrapper .register-now .tcs-copy {
+	font-size: 12px;
+	line-height: 19px;
+	text-align: center;
+	max-width: 573px;
+	margin: 0 auto;
+	padding: 0 80px;
+}
+
+/* Register button */
+input[type=submit] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+    border: 1px solid #4598FF;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #4598FF;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #303061;
+    margin: 26px auto 0;
+    display: block;
+    transition: 0.2s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -webkit-transition: 0.2s ease-in-out all;
+}
+
+input[type=submit]:hover {
+	background: #47478C;
+}
+
+ 
+/******************************************
+
+** Footer
+
+******************************************/
+
+#footer {
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+}
+
+#footer .smaller-body-copy {
+	color: #FFFFFF;
+}
+
+/******************************************
+
+** Small tablet media queries (<800px width)
+
+******************************************/
+
+@media screen and (max-width: 800px) {
+	
+	/* Main page headline */
+	#headline-wrapper .headline {
+		font-size: 52px;
+	}
+	
+	/****** Winners tag ******/
+	/* 13500 */
+	#competition-information-wrapper .total-prize-number {
+		font-size: 60px;
+	}
+	
+	/* Total prize */
+	#competition-information-wrapper .total-prize-text {
+		font-size: 32px;
+	}
+	
+	/* 10 Winners */
+	#competition-information-wrapper .winners {
+		font-size: 30px;
+	}
+	
+	/* Receiving 1350 each */
+	#competition-information-wrapper .receiving-amount {
+		font-size: 18px;
+	}
+
+
+	/****** Date stats panel ******/
+	/* Reduced height of background panel */
+	#competition-information-wrapper .stats-wrapper .date-stats {
+		height: 250px;
+	}
+
+	/* Registration starts, submission date */
+	#competition-information-wrapper .date-title {
+		font-size: 16px;
+	}
+	
+	/****** Competition summary copy ******/
+	#copy-wrapper {
+		padding: 140px 60px 60px;
+	}
+	
+	#registration-wrapper .form-container-padding {
+		padding: 60px 60px 40px;
+	}
+
+}
+
+/******************************************
+
+** Small tablet media queries (<700px width)
+
+******************************************/
+
+@media screen and (max-width: 700px) {
+	
+	/* Main page headline */
+	#headline-wrapper .headline {
+		font-size: 45px;
+	}
+	
+	/****** Winners tag ******/
+	/* 13500 */
+	#competition-information-wrapper .total-prize-number {
+		font-size: 50px;
+	}
+	
+	/* Total prize */
+	#competition-information-wrapper .total-prize-text {
+		font-size: 28px;
+	}
+	
+	/* 10 Winners */
+	#competition-information-wrapper .winners {
+		font-size: 28px;
+	}
+
+	/****** Date stats panel ******/
+	/* Registration starts, submission date */
+	#competition-information-wrapper .date-title {
+		font-size: 14px;
+	}
+	
+	/****** Competition summary copy ******/
+	#copy-wrapper {
+		padding: 120px 50px 50px;
+	}
+	
+	#registration-wrapper .form-container-padding {
+		padding: 50px 50px 40px;
+	}
+	
+	
+	/****** Registration form elements ******/
+	#registration-wrapper .form-label {
+		line-height: 25px;
+	}
+	
+	/****** Radio buttons ******/
+	.radio-buttons label {
+		width: 96%;
+		padding: 15px 0 15px 15px;
+	}
+
+	/****** Dropdown ******/
+	.dropdown {
+		width: 100%;
+	}
+
+	/****** Github/Slack handle elements ******/
+	#registration-wrapper .team-members {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#registration-wrapper .added-team-member {
+		width: 100%;
+	}
+
+	#registration-wrapper .added-team-member .team-member-label {
+		width: 100%;
+	}
+
+	#registration-wrapper .added-team-member .text-input-field {
+		width: 100%;
+	}
+
+	/****** Register now box ******/ 
+	#registration-wrapper .register-now {
+		padding: 40px 0;
+	}
+
+	#registration-wrapper .register-now .tcs-copy {
+		font-size: 14px;
+		line-height: 22px;
+		max-width: 100%;
+		padding: 0 40px;
+	}
+
+	/* Register button */
+	input[type=submit] {
+		width: 50%;
+	}
+
+}
+
+/******************************************
+
+** Mobile media queries (<600px width)
+
+******************************************/
+
+@media screen and (max-width: 600px) {
+
+	.coz-logo {
+		margin: 40px auto 80px;
+		width: 200px;
+	}
+
+	/* Main page headline */
+	#headline-wrapper .headline {
+		font-size: 35px;
+	}
+
+	#competition-information-wrapper .stats-wrapper {
+		background: url('../images/stats-background-image-mobile.png') 0 0 no-repeat;
+		background-size: 100% 100%;
+	}
+
+
+	/****** Winner stats panel ******/
+	/* Winner stats resize */
+	#competition-information-wrapper .stats-wrapper .winner-stats {
+		width: 84%;
+		left: 8%;
+	}
+
+	#competition-information-wrapper .total-prize-number {
+		font-size: 80px;
+	}
+
+	#competition-information-wrapper .total-prize-text {
+		font-size: 40px;
+	}
+
+	#competition-information-wrapper .winners {
+		font-size: 35px;
+	}
+
+	#competition-information-wrapper .receiving-amount {
+		font-size: 20px;
+	}
+
+
+	/****** Date stats panel ******/
+	#competition-information-wrapper .stats-wrapper .date-stats {
+		height: 770px;
+	}
+
+	#competition-information-wrapper .registration-date {
+		width: 100%;
+		float: none;
+		margin-top: 410px;
+	}
+
+	#competition-information-wrapper .submission-date {
+		width: 100%;
+		float: none;
+	}
+
+	#competition-information-wrapper .date-title {
+		font-size: 20px;
+	}
+
+	#competition-information-wrapper .date-information {
+		font-size: 14px;
+	}
+	
+	/****** Competition summary copy ******/
+	#copy-wrapper {
+		padding: 90px 40px 40px;
+	}
+	
+	/* Form padding */
+	#registration-wrapper .form-container-padding {
+		padding: 50px 40px 40px;
+	}
+	
+}
+
+/******************************************
+
+** H1 headline resize queries (<540px width)
+
+******************************************/
+
+@media screen and (max-width: 540px) {
+
+	/* Main page headline */
+	#headline-wrapper .headline {
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	/* Main page headline */
+	#headline-wrapper .headline {
+		font-size: 22px;
+	}
+
+}
+
+/******************************************
+
+** H2 headline resize queries (<480px width)
+
+******************************************/
+
+@media screen and (max-width: 480px) {
+
+	/* All H2 yellow headlines */
+	.yellow-headline {
+		font-size: 20px;
+	}
+
+}
+
+/******************************************
+
+** Small mobile media queries (<425px width)
+
+******************************************/
+
+@media screen and (max-width: 425px) {
+	
+	/* Entire page wrapper */
+	#main-wrapper {
+		border: 10px solid #2B2B5E;
+		padding: 0 20px;
+	}
+	
+	.coz-logo {
+		margin: 40px auto 50px;
+		width: 200px;
+	}
+	
+	/* All H2 yellow headlines */
+	.yellow-headline {
+		font-size: 19px;
+	}
+
+	/* Main page headline */
+	#headline-wrapper .headline {
+		font-size: 24px;
+		letter-spacing: 5px;
+	}
+
+	#headline-wrapper .coz-intro {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	
+	#headline-wrapper .skewed-subline-losenge {
+		width: 210px;
+	}
+
+	#competition-information-wrapper .stats-wrapper {
+		background: url('../images/stats-background-image-mobile.png') 0 0 no-repeat;
+		background-size: 100% 100%;
+	}
+
+
+	/****** Winner stats panel ******/
+	/* Winner stats resize */
+	#competition-information-wrapper .stats-wrapper .winner-stats {
+		width: 84%;
+		left: 8%;
+	}
+
+	#competition-information-wrapper .total-prize-number {
+		font-size: 65px;
+	}
+
+	#competition-information-wrapper .total-prize-text {
+		font-size: 40px;
+	}
+
+	#competition-information-wrapper .winners {
+		font-size: 35px;
+	}
+
+	#competition-information-wrapper .receiving-amount {
+		font-size: 20px;
+	}
+
+
+	/****** Date stats panel ******/
+	#competition-information-wrapper .stats-wrapper .date-stats {
+		height: 770px;
+	}
+
+	#competition-information-wrapper .registration-date {
+		width: 100%;
+		float: none;
+		margin-top: 410px;
+	}
+
+	#competition-information-wrapper .submission-date {
+		width: 100%;
+		float: none;
+	}
+
+	#competition-information-wrapper .date-title {
+		font-size: 20px;
+	}
+
+	#competition-information-wrapper .date-information {
+		font-size: 14px;
+	}
+	
+	/****** Competition summary copy ******/
+	#copy-wrapper {
+		padding: 90px 30px 30px;
+	}
+	
+	#copy-wrapper .body-copy {
+		line-height: 28px;
+	}
+	
+	/* Form padding */
+	#registration-wrapper .form-container-padding {
+		padding: 50px 30px 30px;
+	}
+	
+	/****** Radio buttons ******/
+	.radio-buttons label {
+		width: 92%;
+		padding: 15px 0 15px 15px;
+	}
+
+}
+
+
+
+
