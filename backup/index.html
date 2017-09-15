@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<!-- 
+  Theme Name: Resto
+  Theme URL: https://probootstrap.com/resto-free-restaurant-responsive-bootstrap-website-template
+  Author: ProBootstrap.com
+  Author URL: https://probootstrap.com
+  License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COZ: City Of Zion</title>
+    <meta name="description" content="Home of the NEO developer community">
+    <meta name="keywords" content="blockchain, neo, programming, developers, community, coz, city of zion">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <canvas id="c" style="position:fixed; top:0; left:0"></canvas>
+    <div id="color">#Error</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Fixed navbar -->
+    
+    <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="COZ">COZ</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="welcome">Welcome</a></li>
+            <li><a href="#" data-nav-section="projects">Projects</a></li>
+            <li><a href="#" data-nav-section="governance">Governance</a></li>
+            <li><a href="#" data-nav-section="resources">Resources</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flexslider" style="height: 100vh;" data-section="welcome">
+      <ul class="slides">
+        <li>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="secondary-heading">City Of Zion</h1>
+                  <p class="sub-heading">Home of the international NEO developer community.</p>
+                  <p style="font-size: 125%;">City Of Zion (COZ) is an independent group of open source developers formed to support the NEO BlockChain core and ecosystem. We provide weekly reports that summarize our goals, projects, and progress. The NEO Council acknowledges our efforts and generously provides support for these contributions. The COZ Council distributes any rewards through its own system of governance.</p>
+                </div>
+              </div>
+              <div class="col-md-8 col-md-offset-2">
+                <img class="center-block heroimg" src="img/hero_combo.png" alt="">
+                <div class="arrow bounce">
+                  <a class="fa fa-arrow-down fa-2x" href="#"  data-nav-section="projects"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="probootstrap-section-bg overlay"  data-stellar-background-ratio="0.5" data-section="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h3 class="secondary-heading">Projects</h3>
+                  <p style="font-size: 150%;">Members of COZ create projects on their own initiative. Listed below are some notable undertakings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- probootstrap-bg-white -->
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="probootstrap-cell-retro">
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/square_neon.jpg);"></div>
+                <div class="text text-center">
+                  <h3><a href="http://www.neonwallet.com/"><b>NEON wallet</b></a></h3>
+                  <p>An Electron-based light wallet (no need for chain copy nor VM) for Windows, OSX, and Linux users.</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/square_neoscan.jpg);"></div>
+                <div class="text text-center">
+                  <h3><a href="https://github.com/CityOfZion/neo-scan"><b>NEOScan</b></a></h3>
+                  <p>A high-performance block explorer and API laying the foundation for other projects.</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/square_docs.jpg);"></div>
+                <div class="text text-center">
+                  <h3><a href="https://github.com/CityOfZion/docs"><b>International Documentation</b></a></h3>
+                  <p>COZ members coordinate efforts from multilingual translators to share information with the world.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="half">
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/square_portal.jpg);"></div>
+                <div class="text text-center">
+                  <h3><a href="https://github.com/CityOfZion/neo-slack-bot"><b>Neo Portal</b></a></h3>
+                  <p>A portal to unify developers on a single app. It will support projects, invites, and more!</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/square_trello.jpg);"></div>
+                <div class="text text-center">
+                  <h3><a href="https://trello.com/b/6TngvuLf/neoblockchaindevelopment"><b>A lot more!</b></a></h3>
+                  <p>We're working on lots of things; you can follow along and help vote on priorities on our Trello!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="probootstrap-section-bg overlay"  data-stellar-background-ratio="0.5" data-section="governance">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h3 class="secondary-heading">Governance</h3>
+                  <p style="font-size: 150%;">The community is free to choose its own targets and objectives. That said, our goal is to improve NEO, so we will align with the NEO team's needs and avoid retreading old ground as much as possible, unless it is possible to attain a substantially higher level of quality.</p>
+                  <p>Our most updated governance documentation can be found <a href="https://github.com/CityOfZion/governance"> here</a> on GitHub.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- probootstrap-bg-white -->
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="probootstrap-cell-retro">
+            <div class="half">
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">1</i> - There will be a council always composed of 9 members. They are the Council team in our organization.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">2</i> - There will be a high council composed of 4 members of the council. They are the Maintainers of the Council team.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">3</i> - Any member of CoZ can create and collaborate on projects.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">4</i> - There will be a weekly report delivered to NEO by the high council via a PGP signed email and correspondent pull request on GitHub.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">5</i> - In case of any support from NEO as reward or bounty, the funds will initially be held by a trusted third party in wallet AXSoNQEKjmqPBNPg5cNrHyWivfjok3Vj9D for distribution.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">6</i> - After 1 September 2017, all CoZ funds will be held in a multi-sig wallet requiring a majority of the high council to unlock funding.</p>
+              </div>
+            </div>
+            <div class="half">
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">7</i> - Rewards distribution will be voted on by project before being sent. There must be a majority agreement of all 9 council members.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">8</i> - All decisions not explicitly differentiated in this list will be voted upon as in item 7.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">9</i> - Item 7 voting polls of the council will run for 1 week on the #council Slack channel and after closing will be published in the #develop channel.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">10</i> - The high council will be voted upon each quarter, synchronizing with the quarters of the year. The first election will be on 1 October 2017. The newly elected high council can propose changes to these rules during the first week after the election. Changes will be voted upon as in item 7.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">11</i> - Any member of the council or high council is free to forfeit their position at any time. When this happens, an election will take place and a majority of council members must decide upon a replacement.</p>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn" style="padding: 10px;">
+                <p><i class="fa fa-hashtag" aria-hidden="true">12</i> - Any member of the council that does not vote on polls for more than 2 months will automatically forfeit their position.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="probootstrap-section-bg overlay"  data-stellar-background-ratio="0.5" data-section="resources">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h3 class="secondary-heading">Resources</h3>
+                <p style="font-size: 150%;">Anyone can join us to work together or be a source of technical support.</p>
+            </div>
+          </div>
+          <div class="col-md-8 text-center probootstrap-animate col-md-offset-2">
+            <p>Our code is free and 100% MIT-licensed -- <a href="https://github.com/CityOfZion/cityofzion.github.io">even this website</a>! If you feel you can improve on anything, just send us a pull request. We run JSON-RPC nodes for the mainnet and testnet networks at seed[1-5].cityofzion.io:8080 and test[1-5].cityofzion.io:8880. Furthermore, we are able to provide testnet NEO and GAS for collaborating developers.</p>
+            <p>Visit our <a href="https://github.com/CityOfZion">GitHub</a>, join us in <a href="https://slack.cityofzion.io/">Slack</a>, or chat on the <a  href="https://en.reddit.com/r/NEO/">NEO Reddit</a>.</p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6 col-md-offset-4">
+          <div class="col-md-2 text-center probootstrap-animate">
+            <a href="https://github.com/CityOfZion" target="_blank">
+              <i class="fa fa-5x fa-github" aria-hidden="true"></i><span class="span2"/>
+            </a>
+          </div>
+          <div class="col-md-2 col-md-auto text-center probootstrap-animate">
+            <a href="https://slack.cityofzion.io/" target="_blank">
+              <i class="fa fa-5x fa-slack" aria-hidden="true"></i><span class="span2"/>
+            </a>
+          </div>
+          <div class="col-md-2 text-center probootstrap-animate">
+            <a href="https://www.reddit.com/r/NEO/" target="_blank">
+              <i class="fa fa-5x fa-reddit" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-copyright" style="background-color: white; margin-top: 3cm;" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="copyright-text">&copy; 2017 City Of Zion. Modified (a lot) from <a href="https://probootstrap.com/">ProBootstrap</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+
+  </body>
+</html>
