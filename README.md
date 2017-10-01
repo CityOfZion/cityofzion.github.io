@@ -1,21 +1,20 @@
-# City of Zion GitHub Page 
-This is the GitHub for our spartan simple [homepage](http://cityofzion.io/).
+<p align="center">
+  <img 
+    src="http://res.cloudinary.com/vidsy/image/upload/v1503160820/CoZ_Icon_DARKBLUE_200x178px_oq0gxm.png" 
+    width="125px"
+  >
+</p>
 
-We just want a face for people to look at and find our projects.
+<h1 align="center">CoZ Website</h1>
 
-Feel free to send contributions or improvements.  
-  <br  />
-The homepage must meet the following requirements:
+<p align="center">
+  Compiled assets for the City of Zion official website.
+</p>
 
-##### 1. It must be one single page
-##### 2. It needs to have a maximum of 5 minute read time
-##### 3. Light on grama computer
+## What?
 
-<br  />
-To develop on it, just clone (or download) the repository and enter:
+This repo holds the compiled assets of [cityofzion.io](http://cityofzion.io/).
 
-```bash
-$ sudo npm install -g gulp
-$ npm install
-$ gulp
-```
+## Usage
+
+If you would like to contribute to the website, please submit a pull request in [github.com/CityOfZion/website](https://github.com/CityOfZion/website).
