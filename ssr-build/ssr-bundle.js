@@ -14908,7 +14908,7 @@ var App = function (_Component) {
           socialList: [{
             name: 'Reddit', heading: 'Subscribe', subtitle: 'to NEO Reddit', target: 'https://www.reddit.com/r/NEO/', logo: '/assets/images/reddit.png'
           }, {
-            name: 'Slack', heading: 'Join', subtitle: 'our Slack Channel', target: 'https://slack.cityofzion.io', logo: '/assets/images/slack.png'
+            name: 'Discord', heading: 'Join', subtitle: 'our Discord Channel', target: 'https://discordapp.com/invite/R8v48YA', logo: '/assets/images/discord.png'
           }, {
             name: 'Github', heading: 'Fork', subtitle: 'our Github Repository', target: 'https://github.com/CityOfZion', logo: '/assets/images/github.png'
           }, {
