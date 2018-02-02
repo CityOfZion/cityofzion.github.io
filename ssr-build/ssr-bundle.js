@@ -1127,12 +1127,18 @@ var _ref2 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
 );
 
 var _ref3 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
+  'a',
+  { href: 'https://github.com/CityOfZion' },
+  'City of Zion GitHub'
+);
+
+var _ref4 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
   __WEBPACK_IMPORTED_MODULE_8__components_Title__["a" /* default */],
   null,
   'Governance'
 );
 
-var _ref4 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
+var _ref5 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
   'a',
   { href: 'https://github.com/CityOfZion/governance' },
   'here'
@@ -1236,7 +1242,14 @@ var Home = function (_Component) {
               { className: __WEBPACK_IMPORTED_MODULE_9__style_css___default.a.subtitle },
               'Exemplary projects created through collaborative or individual efforts from the City of Zion.'
             ),
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(__WEBPACK_IMPORTED_MODULE_6__components_ProjectList__["a" /* default */], { list: projectList })
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(__WEBPACK_IMPORTED_MODULE_6__components_ProjectList__["a" /* default */], { list: projectList }),
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
+              'p',
+              { className: __WEBPACK_IMPORTED_MODULE_9__style_css___default.a.subtitle },
+              'You can find many more projects on the ',
+              _ref3,
+              '.'
+            )
           )
         )
       ),
@@ -1249,7 +1262,7 @@ var Home = function (_Component) {
           __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
             __WEBPACK_IMPORTED_MODULE_3__components_ContentWrapper__["a" /* default */],
             { narrow: true },
-            _ref3,
+            _ref4,
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
               'p',
               { className: __WEBPACK_IMPORTED_MODULE_9__style_css___default.a.subtitle },
@@ -1260,7 +1273,7 @@ var Home = function (_Component) {
               'p',
               { className: __WEBPACK_IMPORTED_MODULE_9__style_css___default.a.governanceSubtitle },
               'Our most up to date governance can be found ',
-              _ref4
+              _ref5
             )
           )
         )
@@ -14194,17 +14207,17 @@ var Resources = function Resources(props) {
           __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
             'p',
             { className: __WEBPACK_IMPORTED_MODULE_5__style_css___default.a.license },
-            'Our code is free and 100% MIT-licensed; Even this website!'
+            'Our code is free and 100% MIT-licensed; even this website!'
           ),
           __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
             'p',
             { className: __WEBPACK_IMPORTED_MODULE_5__style_css___default.a.pullRequest },
-            'If you feel you can improve on anything, just send us a pull request.*'
+            'If you feel you can improve on anything, just send us a pull request.'
           ),
           __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
             'p',
             { className: __WEBPACK_IMPORTED_MODULE_5__style_css___default.a.testNet },
-            '*We run JSON-RPC nodes for the mainnet and testnet networks at seed[1-5].cityofzion.io:8880 Furthermore, we are able to provide testnet NEO and GAS for collaborating developers.'
+            'We also run JSON-RPC nodes for the mainnet and testnet networks at seed[1-5].cityofzion.io:8880 Furthermore, and we are able to provide testnet NEO and GAS for collaborating developers.'
           )
         )
       )
@@ -14804,19 +14817,28 @@ var App = function (_Component) {
 
     _this.data = {
       page: {
-        copyright: '© Copyright City of Zion, 2017'
+        copyright: 'Copyright © City of Zion'
       },
       pageMenu: {
         links: [{ name: 'Welcome', target: 'welcome' }, { name: 'Events', target: 'events' }, { name: 'Projects', target: 'projects' }, { name: 'Governance', target: 'governance' }, { name: 'Resources', target: 'resources' }]
       },
       content: {
         eventList: [{
-          description: 'The City of Zion council is promoting a decentralised apps (dApps) competition to further elevate the NEO developer community.',
+          description: 'The first City of Zion dApp competition is completed. See a review of the entries <a href="TODO">here</a>.',
           heading: 'dApps Competition #1',
-          link: 'Submit your registration',
+          link: 'More information',
           target: 'http://cityofzion.io/dapps/1',
           thumbnail: {
             alt: 'dApps Competition #1',
+            src: '/assets/images/dapps-comp-1.png'
+          }
+        }, {
+          description: 'The City of Zion council is currently running the second decentralised apps (dApps) competition to further elevate the NEO developer community.',
+          heading: 'dApps Competition #2',
+          link: 'More information',
+          target: 'http://cityofzion.io/dapps/2',
+          thumbnail: {
+            alt: 'dApps Competition #2',
             src: '/assets/images/dapps-comp-1.png'
           }
         }],
@@ -14908,9 +14930,9 @@ var App = function (_Component) {
           socialList: [{
             name: 'Reddit', heading: 'Subscribe', subtitle: 'to NEO Reddit', target: 'https://www.reddit.com/r/NEO/', logo: '/assets/images/reddit.png'
           }, {
-            name: 'Discord', heading: 'Join', subtitle: 'our Discord Channel', target: 'https://discordapp.com/invite/R8v48YA', logo: '/assets/images/discord.png'
+            name: 'Slack', heading: 'Join', subtitle: 'our Slack Channel', target: 'https://slack.cityofzion.io', logo: '/assets/images/slack.png'
           }, {
-            name: 'Github', heading: 'Fork', subtitle: 'our Github Repository', target: 'https://github.com/CityOfZion', logo: '/assets/images/github.png'
+            name: 'Github', heading: 'Fork', subtitle: 'our Github Repositories', target: 'https://github.com/CityOfZion', logo: '/assets/images/github.png'
           }, {
             name: 'Facebook', heading: 'Message us', subtitle: 'on Facebook', target: 'https://www.facebook.com/CityOfZionOfficial', logo: '/assets/images/facebook.png'
           }, {
