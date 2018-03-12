@@ -18,3 +18,4 @@ This repo holds the compiled assets of [cityofzion.io](http://cityofzion.io/).
 ## Usage
 
 If you would like to contribute to the website, please submit a pull request in [github.com/CityOfZion/cityofzion-website](https://github.com/CityOfZion/cityofzion-website).
+This is Mastashake08 please accept me into CoZ
