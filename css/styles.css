@@ -1,0 +1,233 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+	font-family: 'Source Sans Pro', sans-serif;
+    min-width: 600px;
+    font-size: 18px;
+}
+
+body {
+    background: #212146 url(/images/page-bg-small.png) top repeat;
+    background-size: cover;
+}
+
+a, a:link {
+    color: #73b1ff;
+}
+
+.coz-font {
+    font-family: "orbitron";
+}
+
+.vspace {
+    margin-top: 100px;
+}
+
+.vspace2 {
+    margin-top: 200px;
+}
+
+/**
+ * Homepage Nav Header
+ */
+.masthead {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.masthead .navigation {
+    flex-grow: 1;
+    text-align: right;
+    font-family: "orbitron", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.masthead .navigation span {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.masthead .navigation a {
+    color: #c5c5c5;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.masthead .navigation a:hover {
+    color: white;
+}
+
+/**
+ * Homepage
+ */
+#home-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+#home-content {
+    max-width: 940px;
+    min-width: 480px;
+    margin-top: 100px;
+}
+
+#home-content h1,
+#home-content h2,
+#home-content h3 {
+    font-family: "orbitron";
+}
+
+#home-content h1 {
+    font-size: 64px;
+    letter-spacing: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home-content h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: transparent url("/images/coz-icon-white.png") top 4px left no-repeat;
+    background-size: 44px;
+    padding-left: 60px;
+    margin-bottom: 16px;
+}
+
+#home-content .tagline-wrapper {
+    overflow: hidden;
+    padding-right: 12px;
+}
+
+#home-content .tagline {
+    padding: 0 15px 0 30px;
+    margin: 0 0 0 -15px;
+    transform: skew(-15deg);
+    background-image: linear-gradient(90deg,#2a43c1,#4598ff);
+    overflow: hidden;
+    position: relative;
+    text-shadow: 0 1px #2f53cd;
+    width: 70%;
+}
+
+#home-content .tagline-content {
+    padding: 6px 0 4px;
+    -webkit-transform: skew(15deg);
+    transform: skew(15deg);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .75px;
+}
+
+#home-content .projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home-content .projects-container .project {
+    margin: 40px 10px;
+    width: 280px;
+    font-size: 16px;
+}
+
+#home-content .projects-container .project img {
+    height: 180px;
+    background-image: linear-gradient(90deg,#2a43c1,#4598ff);
+    padding-bottom: 3px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+#home-content .projects-container .project .title {
+    font-family: "orbitron";
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/**
+ * Governance
+ */
+#home-content .governance-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home-content .governance-container > div {
+    margin: 40px 10px;
+    width: 280px;
+    font-size: 16px;
+    border-left: 3px solid #4598ff;
+    padding-left:10px;
+}
+
+#home-content .governance-container > div .title {
+    font-family: "orbitron";
+    vertical-align: top;
+}
+
+#home-content .governance-container > div .title .no {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#home-content .governance-container > div .title .number {
+    font-size:60px;
+    padding-top: -10px;
+}
+
+/**
+ * Resources
+ */
+ #home-content .resources-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home-content .resources-container > div {
+    margin: 40px 10px;
+    width: 280px;
+    font-size: 14px;
+    font-family: "orbitron";
+    font-weight: 500;
+}
+
+#home-content .resources-container > div a {
+    color: white;
+    text-decoration: none;
+}
+
+#home-content .resources-container > div img {
+    float: left;
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+#home-content .resources-container > div h3 {
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+/**
+ * All other pages
+ */
+#container {
+    margin-top: 60px;
+    padding: 20px 40px;
+}

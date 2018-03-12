@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on CoZ:City of Zion</title>
+    <link>https://cityofzion.io/page/</link>
+    <description>Recent content in Pages on CoZ:City of Zion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cityofzion.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoZ #1 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/1/</guid>
+      <description>City of Zion dApps competition
+DAPPS WINNERS The City of Zion hosted their first dApps competition to further elevate the NEO community through collaborative engagement. Below are the winners and honourable mentions that we really felt stood out.
+ dAPPs Winners!
+displayed below by rank
+   10 winners
+ 2 Honourable mentions
+   1st: NEO Smart IoT
+By:  hal0x2328, phetter
+ We saw two primary benefits to smart contracts when we first learned about them — the first is being able to accept micropayments with low or no fees, and second, being able to programmatically define when and how events should take place in the real world in a deterministic and verifiable way.</description>
+    </item>
+    
+    <item>
+      <title>CoZ #1 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/1_launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/1_launch/</guid>
+      <description>City of Zion is launching its first
+dAPPs Competition And we want you to get involved
+ The City of Zion council is promoting a decentralised apps (dApps) competition to further elevate the NEO developer community.
+ 13500
+Total Gas Prize
+  Up to 10 Winners
+receiving 1350 gas each
+  Registration starts
+16th of September 2017
+ Submission deadline
+16th of November 2017
+   Competition details The City of Zion (COZ) Council is happy to promote the first NEO dApps competition.</description>
+    </item>
+    
+    <item>
+      <title>CoZ #2 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/2/</guid>
+      <description>City of Zion is launching its second
+dAPPs Competition And we want you to get involved
+ The City of Zion council is promoting a decentralised apps (dApps) competition to further elevate the NEO developer community.
+ 13500
+Total Gas Prize
+  Up to 10 Winners
+receiving 1350 gas each
+  Submission starts
+25th of January 2018
+ Submission deadline
+25th of February 2018
+   Competition details The City of Zion (COZ) Council is happy to promote the second NEO dApps competition.</description>
+    </item>
+    
+  </channel>
+</rss>
