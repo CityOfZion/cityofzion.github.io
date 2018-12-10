@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-no-text-dark-blue-on-light-blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo-no-text-dark-blue-on-light-blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#DEE6EB" x="0" y="0" width="1024" height="1024"></rect>
+        <g id="Page-1" transform="translate(155.500000, 194.418919)" fill="#191C48">
+            <polygon id="Fill-1" points="449.395966 544.167862 629.159049 544.167862 719.040591 454.286321 629.159049 364.424348"></polygon>
+            <polygon id="Fill-2" points="274.54085 0 179.747428 94.7738528 449.392052 364.418477 539.293163 274.536936 456.652242 184.655394 539.293163 94.7738528 449.392052 4.89231121 359.510511 94.7738528"></polygon>
+            <polygon id="Fill-3" points="0 274.54085 179.743514 454.284364 0 634.067016 179.743514 634.067016 359.506597 454.284364 89.8815416 184.659308"></polygon>
+        </g>
+    </g>
+</svg>

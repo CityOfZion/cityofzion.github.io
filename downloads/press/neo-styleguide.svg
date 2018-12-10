@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="531px" height="1036px" viewBox="0 0 531 1036" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>neo-styleguide</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="neo-styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="531" height="1036"></rect>
+        <g id="FONTS" transform="translate(51.000000, 695.000000)">
+            <text id="Source-Sans-Pro-Semi" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="24" font-weight="500" line-spacing="62" letter-spacing="0.0245454516" fill="#414550">
+                <tspan x="0" y="24">Source Sans Pro Semibold</tspan>
+            </text>
+            <text id="实时的区块数量" font-family="PingFangSC-Semibold, PingFang SC" font-size="20" font-weight="500" line-spacing="31" letter-spacing="0.111111104" fill="#141A23">
+                <tspan x="0.111111134" y="67">实时的区块数量</tspan>
+            </text>
+            <text id="实时的区块数量-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="31" letter-spacing="0.111111104" fill="#141A23">
+                <tspan x="0.111111134" y="163">实时的区块数量</tspan>
+            </text>
+            <text id="实时的区块数量-copy-2" font-family="PingFangSC-Light, PingFang SC" font-size="20" font-weight="300" line-spacing="31" letter-spacing="0.111111104" fill="#141A23">
+                <tspan x="0.111111134" y="259">实时的区块数量</tspan>
+            </text>
+            <text id="Source-Sans-Pro-Regu" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="24" font-weight="normal" line-spacing="62" letter-spacing="0.0245454516" fill="#414550">
+                <tspan x="0" y="121">Source Sans Pro Regular</tspan>
+            </text>
+            <text id="Source-Sans-Pro-Ligh" font-family="SourceSansPro-Light, Source Sans Pro" font-size="24" font-weight="300" line-spacing="62" letter-spacing="0.0245454516" fill="#414550">
+                <tspan x="0" y="217">Source Sans Pro Light</tspan>
+            </text>
+        </g>
+        <g id="SECONDARY" transform="translate(51.000000, 417.000000)">
+            <g id="Peach" transform="translate(0.000000, 28.000000)">
+                <rect id="Peach-Darker" fill="#FFBC39" x="0" y="0" width="50" height="50"></rect>
+                <rect id="Peach-Lighter" fill="#FFE6B7" x="50" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="Pink" transform="translate(0.000000, 108.000000)">
+                <rect id="Pink-Darker" fill="#FB6CC5" x="0" y="0" width="50" height="50"></rect>
+                <rect id="Pink-Lighter" fill="#FFC0E7" x="50" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="Rose" transform="translate(130.000000, 108.000000)">
+                <rect id="Rose-Darker" fill="#FF657A" x="0" y="0" width="50" height="50"></rect>
+                <rect id="Rose-Lighter" fill="#FFCDD4" x="50" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="Purple" transform="translate(260.000000, 108.000000)">
+                <rect id="Purple-Darker" fill="#8F55D5" x="0" y="0" width="50" height="50"></rect>
+                <rect id="Purple-Lighter" fill="#C8AAEC" x="50" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="Blue" transform="translate(130.000000, 28.000000)">
+                <rect id="Blue-Darker" fill="#3CBDE8" x="0" y="0" width="50" height="50"></rect>
+                <rect id="Blue-Lighter" fill="#B8E4F3" x="50" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="Greens" transform="translate(265.000000, 26.000000)" fill="#58BF00">
+                <rect id="Green-Darker" x="0" y="0" width="50" height="50"></rect>
+                <rect id="Green-Lighter" opacity="0.200000003" x="50" y="0" width="50" height="50"></rect>
+            </g>
+            <text id="SECONDARY-ACCENT-COL" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="14" font-weight="500" letter-spacing="0.139999926" fill="#8E9196">
+                <tspan x="0" y="14">SECONDARY ACCENT COLOURS</tspan>
+            </text>
+        </g>
+        <g id="PRIMARY-COLOURS" transform="translate(51.000000, 139.000000)">
+            <g id="White" transform="translate(0.000000, 188.000000)" fill="#FFFFFF" stroke="#D5DBE0">
+                <rect id="Snow" x="0" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="NEO-Greens" transform="translate(0.000000, 28.000000)">
+                <rect id="Lime" fill="#BEEB00" x="0" y="0" width="50" height="50"></rect>
+                <rect id="NEO" fill="#29B800" x="50" y="0" width="50" height="50"></rect>
+                <rect id="Grasshopper" fill="#00A62C" x="100" y="0" width="50" height="50"></rect>
+            </g>
+            <g id="Asphalt" transform="translate(0.000000, 108.000000)">
+                <rect id="01" fill="#141A23" x="0" y="0" width="50" height="50"></rect>
+                <rect id="02" fill="#52575E" x="50" y="0" width="50" height="50"></rect>
+                <rect id="03" fill="#878C96" x="100" y="0" width="50" height="50"></rect>
+                <rect id="04" fill="#E1E5E8" x="150" y="0" width="50" height="50"></rect>
+                <rect id="05" fill="#F6F8FB" x="200" y="0" width="50" height="50"></rect>
+            </g>
+            <text font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="14" font-weight="500" letter-spacing="0.139999926" fill="#8E9196">
+                <tspan x="0" y="14">PRIMARY COLOURS</tspan>
+            </text>
+        </g>
+        <g id="Header">
+            <rect id="Thick-bar" fill="#29B800" x="0" y="0" width="531" height="44"></rect>
+            <rect id="Thin-line" fill="#00A62C" x="0" y="44" width="531" height="5"></rect>
+            <text id="NEO-Quick-Palette-+" font-family="OpenSans-Semibold, Open Sans" font-size="16" font-weight="500" letter-spacing="0.159999937" fill="#FFFFFF">
+                <tspan x="178" y="28">NEO Quick Palette + Fonts</tspan>
+            </text>
+            <g id="NEO-Logo" transform="translate(147.000000, 11.000000)" fill="#FFFFFF">
+                <polygon id="Fill-1" points="12.0962045 7.25533105 12.0962045 16.2971027 20.5445774 20.2812395 20.5445774 4.22118213"></polygon>
+                <polygon id="Fill-2" points="0 20.5769374 8.24572973 24.465938 8.24572973 8.48069365 0 4.58972951"></polygon>
+                <polygon id="Fill-3" points="12.2845919 2.94539437e-05 12.2096807 0.0263416437 11.9949615 0.103314617 11.8936399 0.139837507 0.326094429 4.29402173 8.45842647 8.1303979 11.8936399 6.89686674 12.0961849 6.82391914 20.2063283 3.91131682 20.3419146 3.86271781 20.416924 3.83630745"></polygon>
+            </g>
+        </g>
+        <g id="Section-titles" transform="translate(50.000000, 78.000000)" fill="#414550" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="30" font-weight="500" letter-spacing="0.030681815" line-spacing="62">
+            <text id="Colours">
+                <tspan x="0" y="30">Colours</tspan>
+            </text>
+            <text id="Fonts">
+                <tspan x="1" y="575">Fonts</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

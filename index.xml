@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CoZ:City of Zion</title>
+    <link>https://cityofzion.io/</link>
+    <description>Recent content on CoZ:City of Zion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cityofzion.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoZ #1 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/1/</guid>
+      <description>City of Zion dApps competition
+DAPPS WINNERS The City of Zion hosted their first dApps competition to further elevate the NEO community through collaborative engagement. Below are the winners and honourable mentions that we really felt stood out.
+ dAPPs Winners!
+displayed below by rank
+   10 winners
+ 2 Honourable mentions
+   1st: NEO Smart IoT
+By:  hal0x2328, phetter
+ We saw two primary benefits to smart contracts when we first learned about them — the first is being able to accept micropayments with low or no fees, and second, being able to programmatically define when and how events should take place in the real world in a deterministic and verifiable way.</description>
+    </item>
+    
+    <item>
+      <title>CoZ #1 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/1_launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/1_launch/</guid>
+      <description>City of Zion is launching its first
+dAPPs Competition And we want you to get involved
+ The City of Zion council is promoting a decentralised apps (dApps) competition to further elevate the NEO developer community.
+ 13500
+Total Gas Prize
+  Up to 10 Winners
+receiving 1350 gas each
+  Registration starts
+16th of September 2017
+ Submission deadline
+16th of November 2017
+   Competition details The City of Zion (COZ) Council is happy to promote the first NEO dApps competition.</description>
+    </item>
+    
+    <item>
+      <title>CoZ #2 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/2/</guid>
+      <description>City of Zion dApps competition
+DAPPS WINNERS The City of Zion hosted their second dApps competition to further elevate the NEO community through collaborative engagement. Below are the winners and honourable mentions that we really felt stood out.
+ dAPPs Winners!
+displayed below by rank
+   10 winners
+ 5 Honourable mentions
+   1st: Treatail
+By:  gubanotorious
+ Treatail enables online shoppers to make offers to any online store and negotiate a personalized deal.</description>
+    </item>
+    
+    <item>
+      <title>CoZ #2 dApps Competition</title>
+      <link>https://cityofzion.io/dapps/2_launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/dapps/2_launch/</guid>
+      <description>City of Zion is launching its second
+dAPPs Competition And we want you to get involved
+ The City of Zion council is promoting a decentralised apps (dApps) competition to further elevate the NEO developer community.
+ 13500
+Total Gas Prize
+  Up to 10 Winners
+receiving 1350 gas each
+  Submission starts
+25th of January 2018
+ Submission deadline
+25th of February 2018
+   Competition details The City of Zion (COZ) Council is happy to promote the second NEO dApps competition.</description>
+    </item>
+    
+    <item>
+      <title>CoZ:City of Zion - Our Team</title>
+      <link>https://cityofzion.io/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/team/</guid>
+      <description>Our team City of Zion team of Council members, Advisors, Maintainers, Developers and Contributors    Developer   Woodehh Benjamin J.J. de Bos neo-php &amp;amp; CityOfZion.io developer            Contributor   MediaSmurf Thomas Lobker Contributor and community support           Maintainer   anthdm Anthony De Meulemeester Maintainer of neo-go           Developer   Brian Brian Lenz neo-python developer           Developer  slipo Silas Albrecht Developer          Maintainer   revett Charlie Revett Core CoZ Developer, NeoAuth Creator           Developer   zeshon Austin Hinderer Developer         Security   shargon Fernando Díaz Toledano Security Team            Maintainer   mhuggins Matt Huggins Neon Wallet Developer           Maintainer   gubanotorious Alex Guba C#/.</description>
+    </item>
+    
+    <item>
+      <title>CoZ:City of Zion - Press information</title>
+      <link>https://cityofzion.io/press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cityofzion.io/press/</guid>
+      <description>Press City of Zion is an opensource community. However, our brand is precious to us. We like it! That&#39;s why we have a press area with a couple of HQ and Vector logo&#39;s for you to use. These logo&#39;s are free to use for promoting, advertorials, tutorials, banners and explanations. We do ask you to use the color schematics we have used below. This way we ensure our brand is used the way we thought of it!</description>
+    </item>
+    
+  </channel>
+</rss>

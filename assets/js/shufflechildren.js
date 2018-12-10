@@ -1,0 +1,1 @@
+$.fn.shuffleChildren=function(){$.each(this.get(),function(n,t){var e=$(t),r=e.children();r.sort(function(){return.5-Math.random()}),e.empty(),r.appendTo(e)})};

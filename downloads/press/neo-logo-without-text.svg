@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>neo-logo-without-text</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="292.795224 0.0634985465 292.795224 552.208278 0.314853591 415.235483 0.314853591 104.37875 292.795224 0.0634985465"></polyline>
+        <linearGradient x1="-21.7738695%" y1="88.628836%" x2="193.169206%" y2="-26.6985479%" id="linearGradient-3">
+            <stop stop-color="#B2D238" offset="0%"></stop>
+            <stop stop-color="#60BB46" offset="22.78%"></stop>
+            <stop stop-color="#60BB46" offset="41.73%"></stop>
+            <stop stop-color="#44B649" offset="60.53%"></stop>
+            <stop stop-color="#28B34B" offset="77.74%"></stop>
+            <stop stop-color="#0DB14B" offset="99.43%"></stop>
+            <stop stop-color="#0DB14B" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-4" points="0 551.11027 286.751212 685 286.751212 134.645564 0 0.680975323 0 551.11027"></polyline>
+        <rect id="path-6" x="0.0487818697" y="0.426615746" width="1993.01581" height="842.340717"></rect>
+        <linearGradient x1="17.6535587%" y1="69.3988208%" x2="78.5989386%" y2="32.8510674%" id="linearGradient-8">
+            <stop stop-color="#B2D238" offset="0%"></stop>
+            <stop stop-color="#60BB46" offset="22.78%"></stop>
+            <stop stop-color="#60BB46" offset="41.73%"></stop>
+            <stop stop-color="#44B649" offset="60.53%"></stop>
+            <stop stop-color="#28B34B" offset="77.74%"></stop>
+            <stop stop-color="#0DB14B" offset="99.43%"></stop>
+            <stop stop-color="#0DB14B" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-9" points="690.120139 134.644699 694.824546 132.975931 697.424413 132.07255 415.432413 0.4252149 412.834978 1.32939828 405.389645 3.96974212 401.877756 5.22212034 0.768529617 147.779828 282.76053 279.427966 401.877756 237.097421 408.900722 234.596676 690.120139 134.644699"></polyline>
+        <linearGradient x1="-5.16956838%" y1="83.1216153%" x2="171.135891%" y2="-22.9723129%" id="linearGradient-11">
+            <stop stop-color="#B2D238" offset="0%"></stop>
+            <stop stop-color="#60BB46" offset="22.78%"></stop>
+            <stop stop-color="#60BB46" offset="41.73%"></stop>
+            <stop stop-color="#44B649" offset="60.53%"></stop>
+            <stop stop-color="#28B34B" offset="77.74%"></stop>
+            <stop stop-color="#0DB14B" offset="99.43%"></stop>
+            <stop stop-color="#0DB14B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="neo-logo-without-text" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Clipped" transform="translate(575.000000, 235.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="SVGID_46_"></g>
+            <polygon id="Shape" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" points="-237.420652 133.031063 222.36029 -124.128406 530.530729 419.240714 70.7497873 676.400182"></polygon>
+        </g>
+        <g id="Clipped" transform="translate(156.000000, 248.000000)">
+            <mask id="mask-5" fill="white">
+                <use xlink:href="#path-4"></use>
+            </mask>
+            <g id="SVGID_49_"></g>
+            <g mask="url(#mask-5)">
+                <g transform="translate(0.000000, -157.767333)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="SVGID_51_" stroke="none" fill="none"></g>
+                    <polygon id="Shape" stroke="none" fill="url(#linearGradient-8)" fill-rule="nonzero" mask="url(#mask-7)" points="-363.742824 203.279988 1513.10465 -843.263978 2356.8562 639.914765 480.007907 1686.45873"></polygon>
+                </g>
+            </g>
+        </g>
+        <g id="Clipped" transform="translate(166.000000, 91.000000)">
+            <mask id="mask-10" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <g id="SVGID_54_"></g>
+            <polygon id="Shape" fill="url(#linearGradient-11)" fill-rule="nonzero" mask="url(#mask-10)" points="-119.776314 67.6147851 529.655533 -294.368252 817.968446 212.238395 168.53741 574.221433"></polygon>
+        </g>
+    </g>
+</svg>

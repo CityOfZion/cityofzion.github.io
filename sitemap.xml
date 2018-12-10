@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cityofzion.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/dapps/1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/dapps/1_launch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/dapps/2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/dapps/2_launch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/team/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/press/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cityofzion.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
